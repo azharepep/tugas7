@@ -1,0 +1,123 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f7f9fc;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.contact-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.contact-header h1 {
+  font-size: 36px;
+  color: #333;
+}
+
+.contact-header p {
+  font-size: 18px;
+  color: #666;
+}
+
+.contact-options {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 40px;
+}
+
+.contact-option {
+  display: flex;
+  align-items: center;
+  width: 200px;
+  text-align: left;
+}
+
+.contact-option .icon {
+  font-size: 40px;
+  margin-right: 10px;
+}
+
+.email-icon::before {
+  content: "✉️";
+}
+
+.phone-icon::before {
+  content: "📞";
+}
+
+.office-icon::before {
+  content: "🏢";
+}
+
+.socials-icon::before {
+  content: "🌐";
+}
+
+.contact-option h3 {
+  margin: 0;
+  font-size: 18px;
+  color: #333;
+}
+
+.contact-option p {
+  display: flex;
+  margin: 5px 0 0;
+  font-size: 16px;
+  color: #666;
+}
+
+.contact-option p a {
+  text-decoration: none;
+  color: #3b5998; /* For Facebook */
+  margin: 0 5px;
+}
+
+.contact-option p a:hover {
+  text-decoration: underline;
+}
+
+.contact-form {
+  text-align: left;
+}
+
+.contact-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form label {
+  font-size: 16px;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.contact-form input, 
+.contact-form textarea {
+  font-size: 16px;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.contact-form button {
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #28a745;
+  color: white;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background-color: #218838;
+}
